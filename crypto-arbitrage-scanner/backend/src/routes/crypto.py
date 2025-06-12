@@ -9,14 +9,9 @@ crypto_bp = Blueprint('crypto', __name__)
 SUPPORTED_EXCHANGES = ['binance', 'coinbase', 'kucoin', 'kraken', 'bybit']
 SUPPORTED_COINS = [
     # Major cryptocurrencies
-    'BTC/USDT', 'ETH/USDT', 'BNB/USDT', 'XRP/USDT', 'SOL/USDT', 
-    'ADA/USDT', 'DOGE/USDT', 'AVAX/USDT', 'DOT/USDT', 'MATIC/USDT',
-    'LINK/USDT', 'LTC/USDT', 'SHIB/USDT', 'UNI/USDT', 'ATOM/USDT',
-    'XLM/USDT', 'NEAR/USDT', 'ALGO/USDT', 'FTM/USDT', 'TRX/USDT',
-    'ETC/USDT', 'FIL/USDT', 'HBAR/USDT', 'VET/USDT', 'MANA/USDT',
-    'SAND/USDT', 'AXS/USDT', 'EGLD/USDT', 'EOS/USDT', 'THETA/USDT',
-   
-]
+    'BTC/USDT', 'ETH/USDT', 'SOL/USDT'
+    , 'DOGE/USDT']
+
 # Initialize exchange instances
 exchange_instances = {}
 
