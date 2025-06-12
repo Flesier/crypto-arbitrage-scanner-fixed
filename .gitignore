@@ -19,4 +19,4 @@ var/
 .installed.cfg
 *.egg
 .env
-venv/
+.venv/
