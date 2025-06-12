@@ -6,7 +6,7 @@ from datetime import datetime
 crypto_bp = Blueprint('crypto', __name__)
 
 # List of supported exchanges and coins
-SUPPORTED_EXCHANGES = ['binance', 'coinbase', 'kucoin', 'kraken', 'bybit', 'gateio', 'mexc']
+SUPPORTED_EXCHANGES = ['binance', 'coinbase', 'kucoin', 'kraken', 'bybit']
 SUPPORTED_COINS = [
     # Major cryptocurrencies
     'BTC/USDT', 'ETH/USDT', 'BNB/USDT', 'XRP/USDT', 'SOL/USDT', 
@@ -15,19 +15,7 @@ SUPPORTED_COINS = [
     'XLM/USDT', 'NEAR/USDT', 'ALGO/USDT', 'FTM/USDT', 'TRX/USDT',
     'ETC/USDT', 'FIL/USDT', 'HBAR/USDT', 'VET/USDT', 'MANA/USDT',
     'SAND/USDT', 'AXS/USDT', 'EGLD/USDT', 'EOS/USDT', 'THETA/USDT',
-    
-    # Mid-tier cryptocurrencies
-    'AAVE/USDT', 'ENJ/USDT', 'GRT/USDT', 'ONE/USDT', 'CHZ/USDT',
-    'BAT/USDT', 'ZIL/USDT', 'IOTA/USDT', 'WAVES/USDT', 'KSM/USDT',
-    'DASH/USDT', 'NEO/USDT', 'COMP/USDT', 'ZEC/USDT', 'QTUM/USDT',
-    'ICX/USDT', 'ONT/USDT', 'ZRX/USDT', 'KAVA/USDT', 'RVN/USDT',
-    'ANKR/USDT', 'OMG/USDT', 'CELO/USDT', 'SUSHI/USDT', 'YFI/USDT',
-    
-    # Less common cryptocurrencies
-    'STORJ/USDT', 'CRV/USDT', 'SNX/USDT', 'OCEAN/USDT', 'ALPHA/USDT',
-    'BAND/USDT', 'SKL/USDT', 'BLZ/USDT', 'CELR/USDT', 'SRM/USDT',
-    'REEF/USDT', 'NKN/USDT', 'CTSI/USDT', 'AUDIO/USDT', 'LRC/USDT',
-    'DENT/USDT', 'STMX/USDT', 'ARPA/USDT', 'TRB/USDT', 'MTL/USDT'
+   
 ]
 # Initialize exchange instances
 exchange_instances = {}
