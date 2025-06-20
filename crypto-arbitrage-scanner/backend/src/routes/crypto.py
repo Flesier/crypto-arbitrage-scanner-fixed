@@ -6,10 +6,19 @@ from datetime import datetime
 crypto_bp = Blueprint('crypto', __name__)
 
 # List of supported exchanges and coins
-SUPPORTED_EXCHANGES = ['binance', 'coinbase', 'kucoin', 'kraken', 'bybit', 'bingx', 'bitfinex', 'htx']
+SUPPORTED_EXCHANGES = [
+    'binance', 'coinbase', 'kucoin', 'kraken', 'bybit', 'bingx', 'bitfinex', 'htx', 'bitstamp' 
+]
 SUPPORTED_COINS = [
     # Major cryptocurrencies
-    'BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'DOGE/USDT', 'XRP/USDT', 'ADA/USDT', 'TRX/USDT'
+    'BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'DOGE/USDT', 'XRP/USDT', 'ADA/USDT', 'TRX/USDT',
+    'LTC/USDT',  
+    'BCH/USDT',  
+    'ATOM/USDT', 
+    'MATIC/USDT',
+    'AVAX/USDT', 
+    'LINK/USDT', 
+    'UNI/USDT'   
 ]
 
 # Initialize exchange instances
