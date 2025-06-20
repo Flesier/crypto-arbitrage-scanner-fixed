@@ -7,7 +7,8 @@ crypto_bp = Blueprint('crypto', __name__)
 
 # List of supported exchanges and coins
 SUPPORTED_EXCHANGES = [
-    'binance', 'coinbase', 'kucoin', 'kraken', 'bybit', 'bingx', 'bitfinex', 'htx', 'bitstamp' 
+    'binance', 'coinbase', 'kucoin', 'kraken', 'bybit', 'bingx', 'bitfinex', 'htx', 'bitstamp',
+    'gemini', 'mexc', 'phemex', 'poloniex', 'gateio', 'bitget', 'okx', 'whitebit', 'lbank', 'coinex'
 ]
 SUPPORTED_COINS = [
     # Major cryptocurrencies
