@@ -12,8 +12,6 @@ SUPPORTED_EXCHANGES = [
 SUPPORTED_COINS = [
     # Major cryptocurrencies
     'BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'DOGE/USDT', 'XRP/USDT', 'ADA/USDT', 'TRX/USDT',
-    'LTC/USDT', 'BCH/USDT', 'ATOM/USDT', 'MATIC/USDT', 'AVAX/USDT', 'LINK/USDT', 'UNI/USDT',
-    'XLM/USDT', 'ALGO/USDT', 'EOS/USDT', 'XTZ/USDT', 'FIL/USDT', 'AAVE/USDT', 'SAND/USDT', 'CHZ/USDT'
 ]
 
 # Initialize exchange instances
