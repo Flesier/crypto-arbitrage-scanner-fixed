@@ -11,8 +11,7 @@ SUPPORTED_EXCHANGES = [
 ]
 SUPPORTED_COINS = [
     # Major cryptocurrencies
-    'BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'DOGE/USDT', 'XRP/USDT', 'ADA/USDT', 'TRX/USDT',
-]
+    'BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'DOGE/USDT', 'XRP/USDT', 'ADA/USDT', 'TRX/USDT', 'LINK/USDT', 'ZEC/USDT', 'LTC/USDT']
 
 # Initialize exchange instances
 exchange_instances = {}
